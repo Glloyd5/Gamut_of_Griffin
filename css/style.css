@@ -16,7 +16,7 @@ html {
   height: 70vh;
 }
 
-.content-wrapper {
+.contentWrapper {
   display: flex;
   flex-wrap: nowrap;
   overflow-x: scroll;
@@ -25,14 +25,14 @@ html {
   flex-basis: 0;
 }
 
-/*  This disables the scrollbar in the horizontal scrolling container when we can figure out how to change the default behaviour to horizontal
+/*  This disables the scrollbar in the horizontal scrolling container when we can figure out how to change the default behaviour to horizontal*/
 
-.content-wrapper {
+.contentWrapper {
     &::-webkit-scrollbar {
     display: none;
     } 
 }
-*/
+
 
 header {
   background-color: #000000;
